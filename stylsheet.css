@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+#navigation-bar{
+    padding: 8px 0;
+    background-color: aliceblue;
+}
+.brand-logo{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.color-after{
+    position: relative;
+}
+.color-after:after{
+   content: "";
+   position: absolute;
+   background-color: #ff3c78;
+   height:3px;
+   left: 0;
+   bottom: -10px;
+   transition: 0.1s;
+}
+.color-after:hover:after{
+    width: 100%;
+}
+li,.dropdown-item,.account-section{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 5px 1rem;
+    color: black;
+    text-decoration: none;
+}
+li,.dropdown-item,.account-section:hover{
+    border-bottom: 2 px solid red;
+}
+.d-flex{
+    width: 25%;
+}
+@media (max-width:990px){
+    .brand-logo{
+        position: relative;
+        right: 2%;
+    }
+    .d-flex{
+        position: relative;
+        right: 5%;
+        width: 40%;
+        
+    }
+    .account-section{
+        position:relative;
+        right: 5%;
+    }
+    .row{
+        position: relative;
+        right: 3%;
+    }
+    .d-block{
+        height: 200px;
+    width: 100%;
+    }
+}
+#home-products{
+    padding: 1rem 5%;
+    background-color:rgba(86, 249, 86, 0.196);
+    
+}
+.card{
+    margin: 5px 1rem;
+}
+.row{
+    align-items: center;
+}
+.d-block{
+    height: 350px;
+    width: fit-content;
+}
+#corsour-auto{
+    background-color: beige;
+}
+.product-headings{
+    margin: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.card-title{
+    text-decoration: none;
+    color: black;
+}
+.card-title:hover{
+    color: black;
+}
+#footer{
+    text-align: center;
+    background-color: #ff3c7648;
+    padding: 4%;
+}
+.f-margin{
+    margin: 5px;
+}
